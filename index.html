@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <img src="img/LOGO-Photoroom.png">
+  <h1>Lista de Pedidos</h1>
+ <div>
+    <input type="text" id="codigo" placeholder="Código del pedido" />
+    <select class="select" id="sacador">
+      <option value="">Selecciona el sacador</option>
+      <option value="Omar">Omar</option>
+      <option value="Rolfi">Rolfi</option>
+      <option value="Jairo">Jairo</option>
+    </select>
+    <input type="number" id="cantidad" placeholder="Cantidad total de productos" />
+    <button class="add" onclick="agregarPedido()">Agregar Pedido</button>
+  </div>
+  <button class="pause" onclick="pausarTodos()">Pausar Todos</button>
+  <button class="star" onclick="reanudarTodos()">Reanudar Todos</button>
+  <div id="task-list"></div>
+  <script src="script.js"></script>
+</body>
+</html>
