@@ -12,7 +12,7 @@ const INDIVIDUAL_PAUSES = {
   "Jairo": { pausa: "12:30:00", reanuda: "13:30:00" }
 };
 
-const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbyVhKA1LB2FoiSlyHuWmurKUsDXzDJrTvRFIKEPVX3vX7l_zXNyrUYH75aKaf3hna_JNg/exec";
+const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycby24_KMxzU3ifTiT3OgG_eYawkLeihTYvgNBXRncwbOQ7Ao10QDDeQBg9Ym1cB-LP6MAQ/exec";
 
 window.onload = () => {
   const saved = JSON.parse(localStorage.getItem("pedidos")) || [];
